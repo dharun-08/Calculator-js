@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="heading">
+        <h1>Calculator</h1>
+    </div>
+    <div class="input">
+       Input 1<input type="number" id="input1">
+       Input 2<input type="number" id="input2">
+    </div>
+    
+<!---End Of Heading-->
+
+<!---Start of Buttons-->
+    <div class="buttons">
+    <button id="add" onclick="Add()">Add</button>
+    <button id="sub" onclick="Sub()">Subtract</button>
+    <button id="multiply" onclick="Multiply()">Multiply</button>
+    <button id="divide" onclick="Divide()">Divide</button>
+    </div>
+<!---end of Buttons-->
+
+<!--Answer-->
+    <div class="answer">
+        <span id="answer-elem">Answer:</span>
+    </div>
+    
+    <!---Script-->
+    <script src="index.js"></script>
+</body>
+</html>
